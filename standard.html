@@ -1,0 +1,69 @@
+<f:layout name="{settings.layout}"/><!!-- Index, but allows replacing via typo script -->
+
+<f:section name="first_section">
+	<div class="row" id="home-header">
+		<div id="logo" class="span4" style="visibility:hidden;"><!-- TODO remove if logo settled. -->
+			<img src="./images/logo.png" alt="" height="45">
+		</div>
+		<!--
+		<h2 class="span8 right" id="mini-slogan">We have a clue.</h2>
+			-->
+	</div>
+
+
+	<f:if condition="{data.title}">
+		<f:then>
+			<!-- TODO Check if data provides the page title and it. -->
+			<h1 style="text-align: center;" id="first-title" class="big-title">
+				<span>
+					{data.title}
+				<!-- TODO Find/create toFairy($main_page_title) fluid helper. -->
+				</span>
+			</h1>
+
+		</f:then>
+		<f:else>
+
+			<div class="row three-big" id="slogan">
+				<h1 style="display: block;" id="first-title" class="big-title"><span>Angelika Hirschberg</span></h1>
+				<h1 style="display: block;" id="second-title" class="big-title">Freier Journalismus</h1>
+				<h1 style="display: block;text-align: center;" id="third-title" class="title">Berichterstattung, Dokumentation, Fotos, Publicity</h1>
+			</div>
+
+		</f:else>
+	</f:if>
+
+
+	<div class="row">
+		<nav class="offset3	span8">
+			<ul class="row unstyled" id="nav-home">
+			</ul>
+		</nav>
+	</div>
+
+
+	<div style="text-align: center;">
+		<h1 style="margin: auto;" class="title">Your start page slogan.
+		</h1>
+	</div>
+</f:section>
+
+
+
+
+<f:section name="content">
+	<f:format.raw>{content}</f:format.raw>
+</f:section>
+
+<f:section name="content_right">
+	<f:format.raw>{content_right}</f:format.raw>
+</f:section>
+
+
+<!-- Allows different fixed position style elements for every page: -->
+<f:section name="fixed_position_elements">
+	<div></div>
+</f:section>
+
+
+
