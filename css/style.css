@@ -43,14 +43,21 @@ body {
 	font-size:13px;
 	line-height:20px;
 	background-attachment: fixed;
-	/*
-	background-image: url("../images/redshift.png");
-		background-image: url("http://www.wildtextures.com/wp-content/uploads/2012/01/wildtextures-seamless-blue-fabric-texture.jpg");
-	*/
 	background-color: rgb(44, 103, 143);
+	background-image: url("../images/background.jpg");
+	background-position: center top;
 	background-repeat: repeat-x;
 }
 
+
+.loader_bar_horizontal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	background-color: orange;
+}
 
 .container {
 	padding: 10px;
