@@ -57,9 +57,9 @@ body {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: .01rem;
+	height: .2rem;
 	z-index: 100;
-	background-color: orange;
+	background-color: royalblue;
 }
 
 /* Having this separate allows to apply these rules to a single global wrapper easily.
@@ -126,7 +126,7 @@ ul
 
 h3 {
 	font-size:30px;
-	color: #333;
+	color: rgb(34, 34, 68);
 	font-weight:300;
 }
 
@@ -134,28 +134,38 @@ p {
 	font-weight: 400;
 }
 
-header {
-	display: none;
-	z-index: 99999;
-	position: relative;
-}
-
 li, a, img {
 	outline: none !important;
 }
 
-section {
-	padding-top: 110px;
-	margin-bottom: 300px;
-	overflow: hidden;
+header {
+	z-index: 99999;
+	position: relative;
+}
 
+header, section {
+	padding-top: 0;
+	margin-bottom: .1rem;
+	overflow: hidden;
 	background-color: rgba(2,2,2, .5);
 	width: 100%;
 	/* TODO color variation */
+	border-top: 1px solid rgb(34, 34, 68);
+	border-bottom: 1px solid rgb(17, 17, 17);
+}
+
+.page_content
+{
+	color: rgb(34, 34, 68);
+	background-color: white;
+}
+.page_content_right
+{
+	background-color: royalblue;
 }
 
 #page-1 {
-	padding-top:140px;
+	padding-top: 2rem;
 }
 
 .last-section {
@@ -214,9 +224,12 @@ input, textarea {
 	position: absolute;
 	z-index: 100000;
 	font-variant: small-caps;
-	top: 8pt;
+	top: 2rem;
+	/*
 	margin-left: -150pt;
-	left: 40%;
+	left: 50%;
+	*/
+	right: 0;
 }
 #main-nav li {
 	display: inline-block;
@@ -230,7 +243,7 @@ input, textarea {
 	background-color: royalblue;
 }
 #main-nav li+li+li {
-	background-color: magenta;
+	/*background-color: magenta;*/
 }
 #main-nav li a {
 	color: black;
@@ -307,6 +320,7 @@ input, textarea {
 
 
 
+
 /* ------------------------------------------------------------------
  Home Template
  */
@@ -345,19 +359,19 @@ input, textarea {
 	height: 100px;
 }
 .big-title {
-	font-family: 'NovecentowideLightRegular';
-	text-align: center;
-	padding-top: 0px;
+	/* Novecento font not working font-family: 'NovecentowideLightRegular', sans;*/
+	padding-top: 0;
 	font-size: 50px;
 	line-height: 50px;
 	margin-bottom: 20px;
 	font-weight: normal;
-	display:none;
+	/*no javascript display:none;*/
 }
 .big-title span {
+	/*
 	background:#000;
-	padding-left:10px;
-	padding-right:10px;
+	*/
+	padding-right: .8rem;
 }
 #nav-home ul {
 	list-style: none;
@@ -712,7 +726,7 @@ span.wpcf7-not-valid-tip {
 		padding-top: 90px;
 	}
 	#page-1 {
-		padding-top:60px;
+		padding-top: 0;
 	}
 	.circle-menu:hover .label-link {
 		/* Firefox */
