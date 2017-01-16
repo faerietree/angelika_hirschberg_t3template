@@ -168,13 +168,16 @@ header, section {
 	padding-top: 2rem;
 }
 
-.last-section {
-	/*
-	margin-bottom:0px;
-	background-color: rgba(252,252,252, .5);
-	background-color: rgb(252,252,252);
-	*/
+.last-section > div > div {
+	width: 30%;
+	float: left;
 }
+
+.last-section > div > div + div {
+	width: 65%;
+	float: right;
+}
+
 .section-title {
 	font-family: 'NovecentowideBookBold';
 	font-size: 50px;
@@ -373,7 +376,10 @@ input, textarea {
 	*/
 	padding-right: .8rem;
 }
-#nav-home ul {
+#nav-home ul
+, ul.unstyled
+, .last-section ul
+{
 	list-style: none;
 }
 nav#nav-home ul li {
