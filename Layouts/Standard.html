@@ -142,6 +142,17 @@ HERE INBETWEEN IS WHERE AJAX LOADED DYNAMIC CONTENT CAN BE ADDED:
 </f:if>
 
 
+<f:if condition="{content_left}">
+	<f:then>
+<section class="page_content_left">
+	<div class="container wrapper">
+				<div class="content_left">
+					<f:render section="content_left"/>
+				</div>
+	</div>
+</section>
+	</f:then>
+</f:if>
 
 
 
