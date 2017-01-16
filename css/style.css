@@ -737,12 +737,6 @@ span.wpcf7-not-valid-tip {
 		font-size:14px;
 		line-height: 14px;
 	}
-	section {
-		padding-top: 90px;
-	}
-	#page-1 {
-		padding-top: 0;
-	}
 	.circle-menu:hover .label-link {
 		/* Firefox */
 		-moz-transform: scale(1) rotate(0deg) translate(0px);
@@ -759,13 +753,6 @@ span.wpcf7-not-valid-tip {
 @media (max-width: 767px) {
 	body {
 		padding:0;
-	}
-	section {
-		padding: 110px 20px 0 20px;
-	}
-	footer {
-		padding-left:20px;
-		padding-right:20px;
 	}
 	.big-title {
 		font-size: 30px;
