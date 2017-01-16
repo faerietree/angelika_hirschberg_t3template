@@ -14,9 +14,9 @@
 	<f:if condition="{data.title}">
 		<f:then>
 			<!-- TODO Check if data provides the page title and it. -->
-			<h1 style="text-align: center;" id="first-title" class="big-title">
+			<h1 id="first-title" class="big-title">
 				<span>
-					{data.title}
+					Angelika Hirschberg
 				<!-- TODO Find/create toFairy($main_page_title) fluid helper. -->
 				</span>
 			</h1>
@@ -43,7 +43,8 @@
 
 
 	<div style="text-align: center;">
-		<h1 style="margin: auto;" class="title">Your start page slogan.
+		<h1 style="margin: auto;" class="title">
+			{data.title}
 		</h1>
 	</div>
 </f:section>
