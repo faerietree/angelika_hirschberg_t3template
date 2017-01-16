@@ -198,12 +198,15 @@ a:hover {
 }
 #footer,
 footer {
-	margin-bottom:0px;
-	background:#000000;
-	padding:15px 0;
-	color:#fff;
-	font-size:12px;
-	font-family: 'NovecentowideLightRegular';
+	margin-bottom: 0;
+	background-color: royalblue;
+	background-color: rgba(, .4);
+	filter: alpha(opacity=50);
+	opacity: .5;
+	padding: 15px 0;
+	color: #fff;
+	font-size: 12px;
+	font-family:  'NovecentowideLightRegular';
 }
 #footer,
 footer a {
