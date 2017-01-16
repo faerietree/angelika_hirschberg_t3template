@@ -116,25 +116,41 @@
 <!--
 HERE INBETWEEN IS WHERE AJAX LOADED DYNAMIC CONTENT CAN BE ADDED:
 -->
+<f:if condition="{content}">
+	<f:then>
 <section class="page_content">
 	<div class="container wrapper">
-		<f:if condition="{content_right}">
-			<f:then>
-				<div class="content w50">
-					<f:render section="content"/>
-				</div>
-				<div class="content_right w50">
-					<f:render section="content_right"/>
-				</div>
-			</f:then>
-			<f:else>
 				<div class="content">
 					<f:render section="content"/>
 				</div>
-			</f:else>
-		</f:if>
 	</div>
 </section>
+	</f:then>
+</f:if>
+
+
+<f:if condition="{content_right}">
+	<f:then>
+<section class="page_content_right">
+	<div class="container wrapper">
+				<div class="content_right">
+					<f:render section="content_right"/>
+				</div>
+	</div>
+</section>
+	</f:then>
+</f:if>
+
+
+
+
+
+<!-- fixed position elements: -->
+<f:render section="fixed_position_elements"/>
+
+
+
+
 
 
 
