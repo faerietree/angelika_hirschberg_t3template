@@ -36,25 +36,6 @@
 <body class="home blog">
 	<!-- ###DOCUMENT### -->
 
-<!-- for multipaging -->
-<nav class="" style="z-index: 1000000;">
-	<div class="container wrapper">
-		<div id="main-nav" class="navbar-collapse ">
-		<ul>
-			<f:cObject typoscriptObjectPath="lib.menu" />
-		</ul>
-			<!-- ###METANAV### -->
-		<!--<?php
-		include("../lib.debug.php");
-		include("dynamicmenu.config.php");
-		include("DynamicMenu.class.php");
-		?>-->
-			<!-- ###METANAV### End -->
-		</div>
-
-	</div>
-</nav>
-
 
 <!-- js controlled topmost bar -->
 <header style="display: none;">
@@ -104,6 +85,26 @@
 	<div class="container wrapper">
 		<f:render section="first_section"/>
 	</div>
+
+<!-- for multipaging -->
+<nav class="" style="z-index: 1000000;">
+	<div class="container wrapper">
+		<div id="main-nav" class="navbar-collapse ">
+		<ul>
+			<f:cObject typoscriptObjectPath="lib.menu" />
+		</ul>
+			<!-- ###METANAV### -->
+		<!--<?php
+		include("../lib.debug.php");
+		include("dynamicmenu.config.php");
+		include("DynamicMenu.class.php");
+		?>-->
+			<!-- ###METANAV### End -->
+		</div>
+
+	</div>
+</nav>
+
 </section>
 
 

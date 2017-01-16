@@ -233,15 +233,17 @@ input, textarea {
  Menu
  */
 #main-nav {
+	/*
 	position: absolute;
 	z-index: 100000;
-	font-variant: small-caps;
+	right: 0;
 	top: 2rem;
+	*/
+	font-variant: small-caps;
 	/*
 	margin-left: -150pt;
 	left: 50%;
 	*/
-	right: 0;
 }
 #main-nav li {
 	display: inline-block;
