@@ -11,6 +11,11 @@
 	</div>
 
 
+	<div id="title" style="text-align: center;">
+		<h1 style="margin: auto;" class="title">
+			{data.title}
+		</h1>
+	</div>
 	<f:if condition="{data.title}">
 		<f:then>
 			<!-- TODO Check if data provides the page title and it. -->
@@ -25,9 +30,11 @@
 		<f:else>
 
 			<div class="row three-big" id="slogan">
-				<h1 style="display: block;" id="first-title" class="big-title"><span>Angelika Hirschberg</span></h1>
 				<h1 style="display: block;" id="second-title" class="big-title">Freier Journalismus</h1>
+				<h1 style="display: block;" id="first-title" class="big-title"><span>Angelika Hirschberg</span></h1>
+				<!--
 				<h1 style="display: block;text-align: center;" id="third-title" class="title">Berichterstattung, Dokumentation, Fotos, Publicity</h1>
+				-->
 			</div>
 
 		</f:else>
@@ -42,11 +49,6 @@
 	</div>
 
 
-	<div style="text-align: center;">
-		<h1 style="margin: auto;" class="title">
-			{data.title}
-		</h1>
-	</div>
 </f:section>
 
 
