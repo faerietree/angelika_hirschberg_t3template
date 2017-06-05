@@ -147,9 +147,11 @@ HERE INBETWEEN IS WHERE AJAX LOADED DYNAMIC CONTENT CAN BE ADDED:
 <f:if condition="{content_left}">
 <f:then>
 <section class="page page_content_left">
-	<div id="referenzen" class="marker"></div>
-	<div id="Referenzen" class="marker"></div>
+	<div id="leistung" class="marker"></div>
+	<div id="Leistung" class="marker"></div>
+	<div id="service" class="marker"></div>
 <div class="container wrapper">
+	<p>Seite ist im Aufbau. Mehr Information folgt in Kürze.</p>
 			<div class="content_left">
 				<f:render section="content_left"/>
 			</div>
@@ -180,13 +182,88 @@ HERE INBETWEEN IS WHERE AJAX LOADED DYNAMIC CONTENT CAN BE ADDED:
 
 
 <section class="page">
-	<div id="leistung" class="marker"></div>
-	<div id="Leistung" class="marker"></div>
-	<div id="service" class="marker"></div>
+	<div id="referenzen" class="marker"></div>
+	<div id="Referenzen" class="marker"></div>
 <div class="container wrapper">
-	<h2>Leistung</h2>
-	<div>
-	<p>Seite ist im Aufbau. Mehr Informationen folgen in Kürze.</p>
+	<h2>Referenzen</h2>
+	<div id="gallery">
+	<div id="fullHolder">
+		<ul>
+			<li>
+				<input id="item1" name="gallery" type="radio"/>
+				<div>
+					<span>
+						PDF: Krumbach Magazin [7 MB]
+					</span>
+					<a href="https://hirschberg-text.de/fileadmin/user_upload/Krumbach_Magazin.pdf" target="_blank">
+						<img src="https://hirschberg-text.de/fileadmin/Krumbach_Magazin_A4_Titelseite.jpg" alt=""/>
+					</a>
+				</div>
+			</li>
+			<li>
+				<input id="item2" name="gallery" type="radio"/>
+				<div>
+					<span>
+						PDF: AWM_Auto-Special [6 MB]
+					</span>
+					<a href="../fileadmin/user_upload/AWM_Auto-Special.pdf" target="_blank">
+						<img src="../fileadmin/AWM_Auto-Special.jpg" alt=""/>
+					</a>
+				</div>
+			</li>
+			<li>
+				<input id="item3" name="gallery" type="radio"/>
+				<div>
+					<img src="item_preview.jpg" alt=""/>
+					<span>
+						caption
+						<a target="_blank">
+							&rarr;&ouml;ffnen
+						</a>
+					</span>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div id="thumbHolder">
+		<ul id="momentum">
+			<li>
+				<label for="item1">
+					<img src="https://hirschberg-text.de/fileadmin/Krumbach_Magazin_A4_Titelseite.jpg" alt=""/>
+				</label>
+			</li>
+			<li>
+				<label for="item2">
+					<img src="../fileadmin/AWM_Auto-Special.jpg" alt=""/>
+				</label>
+			</li>
+			<li>
+				<label for="item3">
+					<img src="item_preview.jpg" alt=""/>
+				</label>
+			</li>
+			<li>
+				<label for="item4">
+					<img src="item_preview.jpg" alt=""/>
+				</label>
+			</li>
+			<li>
+				<label for="item5">
+					<img src="item_preview.jpg" alt=""/>
+				</label>
+			</li>
+			<li>
+				<label for="item6">
+					<img src="item_preview.jpg" alt=""/>
+				</label>
+			</li>
+			<li>
+				<label for="item7">
+					<img src="item_preview.jpg" alt=""/>
+				</label>
+			</li>
+		</ul>
+	</div>
 	</div>
 	<!--
 	<h2 class="section-title">Contact</h2>
@@ -244,8 +321,9 @@ HERE INBETWEEN IS WHERE AJAX LOADED DYNAMIC CONTENT CAN BE ADDED:
 </section>
 
 <section class="page last-section" id="page-444">
+	<div id="impressum" class="marker"></div>
 	<div class="container wrapper">
-		<h2 id="impressum">Impressum</h2>
+		<h2>Impressum</h2>
 		<div>
 		<p>
 		Verantwortlich für diese Website gemäß §5 TMG
@@ -256,7 +334,7 @@ HERE INBETWEEN IS WHERE AJAX LOADED DYNAMIC CONTENT CAN BE ADDED:
 		Telefon +49(0)8349-9208737
 		</p>
 		<p>
-		info[at]hirschberg-text.de
+		info@hirschberg-text.de
 		</p>
 		<p>Kleinunternehmen nach §19 Abs. 1 UStG</p>
 		<p>Steuernummer 125/229/11109 FA Kaufbeuren</p>
@@ -271,10 +349,10 @@ HERE INBETWEEN IS WHERE AJAX LOADED DYNAMIC CONTENT CAN BE ADDED:
 		<div>
 			<ul>
 				<li>
-				Hintergrundbild: courtesy of the world wide freedom movement (public domain, www.unlicense.org)
+				Hintergrundbild: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>+ - J.R.I. Fr&uuml;hholz, Vorstand Weltentwicklungsverein i.A. hirschberg-text.de
 				</li>
 				<li>
-				Porträtfoto: Erika Spengler, www.ulligunde.com
+				Porträtfoto: Erika Spengler, <a href="https://www.ulligunde.com">www.ulligunde.com</a>
 				</li>
 			</ul>
 		</div>
