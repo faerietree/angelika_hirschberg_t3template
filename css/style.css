@@ -136,7 +136,7 @@ div h2 + p a
 	overflow: hidden;
 }
 section .container {
-	padding: 3%;
+	padding: 2%;
 	padding-bottom: 0;
 }
 
@@ -896,7 +896,7 @@ div#fullHolder li div span
 div#thumbHolder
 {
 	height: 12rem;
-	width: 92%;
+	width: 96%;
 	background: #fff;
 	text-align: center;
 	overflow: hidden;
@@ -905,7 +905,7 @@ div#thumbHolder
 }
 div#thumbHolder ul
 {
-	height: 14rem;
+	height: 13rem;
 	padding: 0;
 	margin: 0;
 	list-style: none;
@@ -926,6 +926,8 @@ div#thumbHolder li
 	display: inline-block;
 	vertical-align: top;
 	padding: .38rem .31rem;
+	height: 10.5rem;
+	overflow: hidden;
 }
 div#thumbHolder li img
 {
@@ -1054,6 +1056,15 @@ div#thumbHolder li:last-child
 
 
 /* WIDTH DEPENDENT */
+@media (max-width:800px)
+{
+	.container
+	{
+		width: 94%;
+	}
+}
+
+
 @media (max-width:400px)
 {
 	html
