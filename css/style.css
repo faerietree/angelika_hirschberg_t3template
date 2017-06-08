@@ -100,10 +100,15 @@ div h2 + p a
 	margin-bottom: 1px;  /* because the glass effect is more difficult to see the bigger the margin is */
 }
 
-#page-444 h2 ~ h2
+#page-444 h2 + h2
 {
 	padding-top: .4rem;
 	padding-bottom: 0rem;
+}
+
+#page-444 div.container h2:first-of-type
+{
+	margin-top: 4rem;
 }
 
 .loader_bar_horizontal {
