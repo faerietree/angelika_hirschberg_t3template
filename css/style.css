@@ -863,7 +863,7 @@ div#fullHolder li input
 }
 div#fullHolder li div
 {
-	display: block;
+	display: none;
 	filter: alpha(opacity=0);
 	opacity: 0;
 	transition: .5s;
@@ -871,6 +871,7 @@ div#fullHolder li div
 }
 div#fullHolder li input:checked + div
 {
+	display: block;
 	filter: alpha(opacity=100);
 	opacity: 1;
 }
@@ -949,6 +950,56 @@ div#thumbHolder li img
 div#thumbHolder li:last-child
 {
 	padding-right: 0;
+}
+
+
+
+
+/* ------------------------------------------------------------------
+ Uber mich
+ */
+div#uber_mich ~ div.container figure
+{
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	border: 1px solid #DDD;
+	background-color: #EEE;
+	background-color: transparent;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0, 0.4);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0, 0.4);
+	box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	width: 300px;  /* image width */
+	height: 445px;
+	overflow: hidden;
+}
+
+figcaption
+{
+	position: absolute;
+	top: 5px;
+	padding: 2px 4px;
+	left: 0;
+	height: 350px;
+	width: 100%;
+	display: inline-block;
+	font-size: 15px;
+	line-height: 16px;
+	text-shadow: 1px 0px 1px white;
+}
+
+figcaption::before
+{
+	font-size: 19px;
+	line-height: 19px;
+	content: "Angelika Hirschberg";
+	display: inline-block;
+	padding-bottom: 380px;
+	width: 100%;
+	padding-left: 2px;
+	padding-top: 2px;
+	color: white;
+	text-shadow: 1px 0px 1px black;
 }
 
 
