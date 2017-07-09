@@ -19,6 +19,8 @@ styles.content {
 	getNews.select.pidInList = {$styles.content.getNews.newsPid}
 }
 
+
+
 # Set default permissions for new content elements:
 TCEMAIN.permissions {
 	# owner be_group
@@ -39,21 +41,6 @@ TCEMAIN.permissions {
 	# bit 5: 8
 	# source: http://forum.typo3.org/index.php/t/206687
 }
-
-# Create a typoscript-menu to be referenced via fluid:cObject from templates:
-lib.menu = HMENU
-lib.menu{
- 1 = TMENU
- 1 {
-	wrap = <ol class="menu main-nav">|</ol>
-	sectionIndex = 1
-	sectionIndex.type = header
-	expAll = 1
-	NO.allWrap = <li>|</li>
- }
-
-}
-
 
 
 
@@ -95,22 +82,3 @@ page.10 {
 	}
 }
 
-
-
-
-
-
-# The menu is created using cObject fluid view helper, instead of
-#lib.menu = HMENU
-#lib.menu{
-#	1 = TMENU
-#	1.NO.wrapItemAndSub = <li>|</li>
-#}
-
-#page.10.workOnSubpart = DOCUMENT
-
-#page.10.subparts {
-#}
-
-#page.10.marks {
-#}
