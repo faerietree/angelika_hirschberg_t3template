@@ -54,11 +54,6 @@ body {
 	margin: 0;
 }
 
-div .ce-gallery
-{
-	float: left;
-}
-
 #referenzen ~ div img
 {
 	width: 150px;
@@ -71,11 +66,6 @@ div .ce-gallery
 ,.page h2 + p
 {
 	/*padding-top: 4rem; removed because of marker usage for manual menu*/
-}
-#title h1
-,#first-title
-{
-	padding: 1rem;
 }
 div h2 + p:before
 {
@@ -245,6 +235,13 @@ figure
 {
 	min-height: 60rem;
 	position: relative; /* To be reference for absolute pos of child. */
+}
+div.content > div:last-child
+{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
 }
 
 .page_content
@@ -1296,20 +1293,12 @@ figcaption::before
 	{
 		min-height: 600px;
 	}
-	div#title
-	{
-		margin-top: 300px;
-	}
 }
 @media (min-height:600px) and (max-height:700px)
 {
 	section.page
 	{
 		min-height: 700px;
-	}
-	div#title
-	{
-		margin-top: 400px;
 	}
 }
 @media (min-height:700px) and (max-height:800px)
@@ -1318,20 +1307,12 @@ figcaption::before
 	{
 		min-height: 800px;
 	}
-	div#title
-	{
-		margin-top: 500px;
-	}
 }
 @media (min-height:800px) and (max-height:900px)
 {
 	section.page
 	{
 		min-height: 900px;
-	}
-	div#title
-	{
-		margin-top: 600px;
 	}
 }
 @media (min-height:900px) and (max-height:1000px)
@@ -1340,20 +1321,12 @@ figcaption::before
 	{
 		min-height: 1000px;
 	}
-	div#title
-	{
-		margin-top: 700px;
-	}
 }
 @media (min-height:1000px) and (max-height:1100px)
 {
 	section.page
 	{
 		min-height: 1100px;
-	}
-	div#title
-	{
-		margin-top: 800px;
 	}
 }
 @media (min-height:1100px) and (max-height:1200px)
@@ -1362,10 +1335,6 @@ figcaption::before
 	{
 		min-height: 1200px;
 	}
-	div#title
-	{
-		margin-top: 900px;
-	}
 }
 @media (min-height:1200px) and (max-height:1300px)
 {
@@ -1373,20 +1342,12 @@ figcaption::before
 	{
 		min-height: 1300px;
 	}
-	div#title
-	{
-		margin-top: 1000px;
-	}
 }
 @media (min-height:1300px)
 {
 	section.page
 	{
 		min-height: 1300px;
-	}
-	div#title
-	{
-		margin-top: 1100px;
 	}
 }
 
