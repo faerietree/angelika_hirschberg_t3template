@@ -1267,70 +1267,273 @@ figcaption::before
 
 
 /* HEIGHT DEPENDENT */
-@media (max-height:400px)
+@media (max-height:350px)
+{
+	section.page
+	{
+		min-height: 350px;
+	}
+}
+@media (min-height:350px) and (max-height:375px)
+{
+	section.page
+	{
+		min-height: 375px;
+	}
+}
+@media (min-height:375px) and (max-height:400px)
 {
 	section.page
 	{
 		min-height: 400px;
 	}
 }
-@media (min-height:400px) and (max-height:500px)
+@media (min-height:400px) and (max-height:425px)
+{
+	section.page
+	{
+		min-height: 425px;
+	}
+}
+@media (min-height:425px) and (max-height:450px)
+{
+	section.page
+	{
+		min-height: 450px;
+	}
+}
+@media (min-height:450px) and (max-height:475px)
+{
+	section.page
+	{
+		min-height: 475px;
+	}
+}
+@media (min-height:475px) and (max-height:500px)
 {
 	section.page
 	{
 		min-height: 500px;
 	}
 }
-@media (min-height:500px) and (max-height:600px)
+@media (min-height:500px) and (max-height:525px)
+{
+	section.page
+	{
+		min-height: 525px;
+	}
+}
+@media (min-height:525px) and (max-height:550px)
+{
+	section.page
+	{
+		min-height: 550px;
+	}
+}
+@media (min-height:550px) and (max-height:575px)
+{
+	section.page
+	{
+		min-height: 575px;
+	}
+}
+@media (min-height:575px) and (max-height:600px)
 {
 	section.page
 	{
 		min-height: 600px;
 	}
 }
-@media (min-height:600px) and (max-height:700px)
+@media (min-height:600px) and (max-height:625px)
+{
+	section.page
+	{
+		min-height: 625px;
+	}
+}
+@media (min-height:625px) and (max-height:650px)
+{
+	section.page
+	{
+		min-height: 650px;
+	}
+}
+@media (min-height:650px) and (max-height:675px)
+{
+	section.page
+	{
+		min-height: 675px;
+	}
+}
+@media (min-height:675px) and (max-height:700px)
 {
 	section.page
 	{
 		min-height: 700px;
 	}
 }
-@media (min-height:700px) and (max-height:800px)
+@media (min-height:700px) and (max-height:725px)
+{
+	section.page
+	{
+		min-height: 725px;
+	}
+}
+@media (min-height:725px) and (max-height:750px)
+{
+	section.page
+	{
+		min-height: 750px;
+	}
+}
+@media (min-height:750px) and (max-height:775px)
+{
+	section.page
+	{
+		min-height: 775px;
+	}
+}
+@media (min-height:775px) and (max-height:800px)
 {
 	section.page
 	{
 		min-height: 800px;
 	}
 }
-@media (min-height:800px) and (max-height:900px)
+@media (min-height:800px) and (max-height:825px)
+{
+	section.page
+	{
+		min-height: 825px;
+	}
+}
+@media (min-height:825px) and (max-height:850px)
+{
+	section.page
+	{
+		min-height: 850px;
+	}
+}
+@media (min-height:850px) and (max-height:875px)
+{
+	section.page
+	{
+		min-height: 875px;
+	}
+}
+@media (min-height:875px) and (max-height:900px)
 {
 	section.page
 	{
 		min-height: 900px;
 	}
 }
-@media (min-height:900px) and (max-height:1000px)
+@media (min-height:900px) and (max-height:925px)
+{
+	section.page
+	{
+		min-height: 925px;
+	}
+}
+@media (min-height:925px) and (max-height:950px)
+{
+	section.page
+	{
+		min-height: 950px;
+	}
+}
+@media (min-height:950px) and (max-height:975px)
+{
+	section.page
+	{
+		min-height: 975px;
+	}
+}
+@media (min-height:975px) and (max-height:1000px)
 {
 	section.page
 	{
 		min-height: 1000px;
 	}
 }
-@media (min-height:1000px) and (max-height:1100px)
+@media (min-height:1000px) and (max-height:1025px)
+{
+	section.page
+	{
+		min-height: 1025px;
+	}
+}
+@media (min-height:1025px) and (max-height:1050px)
+{
+	section.page
+	{
+		min-height: 1050px;
+	}
+}
+@media (min-height:1050px) and (max-height:1075px)
+{
+	section.page
+	{
+		min-height: 1075px;
+	}
+}
+@media (min-height:1075px) and (max-height:1100px)
 {
 	section.page
 	{
 		min-height: 1100px;
 	}
 }
-@media (min-height:1100px) and (max-height:1200px)
+@media (min-height:1100px) and (max-height:1125px)
 {
 	section.page
 	{
-		min-height: 1200px;
+		min-height: 1125px;
 	}
 }
-@media (min-height:1200px) and (max-height:1300px)
+@media (min-height:1125px) and (max-height:1150px)
+{
+	section.page
+	{
+		min-height: 1150px;
+	}
+}
+@media (min-height:1150px) and (max-height:1175px)
+{
+	section.page
+	{
+		min-height: 1175px;
+	}
+}
+@media (min-height:1175px) and (max-height:1200px)
+{
+	section.page
+	{
+		min-height: 1175px;
+	}
+}
+@media (min-height:1200px) and (max-height:1225px)
+{
+	section.page
+	{
+		min-height: 1225px;
+	}
+}
+@media (min-height:1225px) and (max-height:1250px)
+{
+	section.page
+	{
+		min-height: 1250px;
+	}
+}
+@media (min-height:1250px) and (max-height:1275px)
+{
+	section.page
+	{
+		min-height: 1275px;
+	}
+}
+@media (min-height:1275px) and (max-height:1300px)
 {
 	section.page
 	{
