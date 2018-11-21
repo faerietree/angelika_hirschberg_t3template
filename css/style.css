@@ -134,10 +134,12 @@ div h2 + p a
 	/* To scale the CSS gallery vertically as big as fitting onto the screen: */
 	height: 90%;  /* 100% - bottom margin - top padding - step adaption for height to device screen adaption */
 	overflow: hidden;
+	overflow-y: auto;
 }
 section .container {
 	padding: 0;
 	padding-left: 2%;
+	padding-right: 30%;
 }
 
 section.page img
