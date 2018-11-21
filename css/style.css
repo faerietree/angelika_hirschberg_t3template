@@ -320,6 +320,7 @@ input, textarea {
 #manual_menu
 ,#main-nav
 {
+	height: 2rem;
 	position: fixed;
 	top: .5rem;
 	right: 3%;
