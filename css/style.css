@@ -54,6 +54,11 @@ body {
 	margin: 0;
 }
 
+div .ce-gallery
+{
+	float: left;
+}
+
 #referenzen ~ div img
 {
 	width: 150px;
@@ -143,6 +148,21 @@ div h2 + p a
 section .container {
 	padding: 0;
 	padding-left: 2%;
+}
+
+section.page img
+{
+	max-height: 100%;
+	margin-right: .9rem;
+}
+div.ce-gallery div.ce-row
+{
+	float: left;
+}
+div.ce-gallery div.ce-row img
+{
+	max-height: 11rem;
+	width: auto;
 }
 
 .row
