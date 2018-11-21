@@ -153,7 +153,7 @@ div.ce-gallery div.ce-row
 }
 div.ce-gallery div.ce-row img
 {
-	max-height: 11rem;
+	height: 7rem;
 	width: auto;
 }
 
@@ -242,7 +242,7 @@ div.container > div:last-child
 {
 	width: 100%;
 	position: absolute;
-	bottom: 0;
+	bottom: 1rem;
 }
 
 .page_content
