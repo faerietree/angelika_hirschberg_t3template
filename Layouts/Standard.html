@@ -39,7 +39,7 @@
 
 
 <!-- js controlled topmost bar -->
-<header style="display: none;">
+<header>
 <nav class="navbar navbar-inverse navbar-fixed-top" style="opacity: .99; filter: alpha(opacity=99);">
 	<div class="navbar-inner">
 		<div class="container wrapper">
@@ -79,6 +79,17 @@
 
 </header>
 
+
+<!-- per page nav -->
+<ul id="manual_menu">
+	<li><a href="#">Home</a></li>
+	<li><a href="#kontakt">Kontakt</a></li>
+	<!--
+	<li><a href="#uber_mich">&Uuml;ber mich</a></li>
+	-->
+	<li><a href="#netzwerk">Netzwerk</a></li>
+	<li><a href="#impressum">Impressum</a></li>
+</ul>
 
 
 <!-- TODO Rename to first-section for consistency as no longer more pages are shown / loaded via AJAX for simplicity, compatibility. -->
@@ -145,7 +156,7 @@ HERE INBETWEEN IS WHERE AJAX LOADED DYNAMIC CONTENT CAN BE ADDED:
 	<div id="service" class="marker"></div>
 <div class="container wrapper content_left">
 	<!--
-	<p>Seite ist im Aufbau. Mehr Information folgt in Kürze.</p>
+	<p>Seite ist im Aufbau. Mehr Information folgt in K&uuml;rze.</p>
 	-->
 	<f:render section="content_left"/>
 </div>
@@ -153,6 +164,12 @@ HERE INBETWEEN IS WHERE AJAX LOADED DYNAMIC CONTENT CAN BE ADDED:
 </f:then>
 </f:if>
 
+
+<f:if condition="{content_border}">
+<f:then>
+	<f:render section="content_border"/>
+</f:then>
+</f:if>
 
 
 <!-- fixed position elements: -->

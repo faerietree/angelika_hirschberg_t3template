@@ -247,13 +247,22 @@ header {
 	z-index: 99999;
 	position: relative;
 }
+header nav
+{
+	display: none;
+}
 
-header, section {
+header,
+section
+{
 	padding-top: 0;
 	margin-bottom: .1rem;
 	overflow: hidden;
-	background-color: rgba(2,2,2, .5);
 	width: 100%;
+}
+section
+{
+	background-color: rgba(2,2,2, .5);
 	/* TODO color variation */
 }
 
@@ -267,11 +276,30 @@ figure
 	min-height: 60rem;
 	position: relative; /* To be reference for absolute pos of child. */
 }
+
+div.container > div
+{
+	z-index: 100;
+	position: relative;
+}
+div.content_border  div
+{
+	z-index: 1111;
+}
+div#main-nav
+{
+	display: none;
+}
 div.container > div:last-child
 {
 	width: 100%;
 	position: absolute;
-	bottom: 2rem;
+	bottom: 0rem;
+	z-index: 10;
+}
+#page-1 div.container > div:last-child
+{
+	bottom: 4rem;
 }
 
 .page_content
@@ -364,6 +392,12 @@ input, textarea {
 	margin-left: -150pt;
 	left: 50%;
 	*/
+}
+#manual_menu
+{
+	margin-top: 1rem;
+	position: sticky;
+	text-align: right;
 }
 #manual_menu li,
 #main-nav li {
