@@ -394,6 +394,12 @@ input, textarea {
 	position: sticky;
 	text-align: right;
 }
+
+#manual_menu img
+{
+	height: 20px;
+}
+
 #manual_menu li,
 #main-nav li {
 	display: inline-block;
