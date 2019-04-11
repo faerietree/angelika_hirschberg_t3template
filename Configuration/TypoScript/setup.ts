@@ -76,6 +76,7 @@ page.10 {
 		content < styles.content.get
 		content_right < styles.content.getRight
 		content_left < styles.content.getLeft
+		content_border < styles.content.getBorder
 		# Variables are Typoscript-Objects, e.g. the following (unused)
 		sometext = TEXT
 		sometext.value = Here's some text.
