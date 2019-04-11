@@ -51,13 +51,11 @@
 			</button>
 
 			<div id="mini-logo">
-				<a href="#page-1" id="mini-link">
-					<img src="./images/logo-mini.png" alt="" />
-				</a>
-							<a href="?" style="color: white;"><span id="mini-logo-text">Angelika Hirschberg</span></a>
+				<a href="?" style="color: white;"><span id="mini-logo-text">Angelika Hirschberg</span></a>
 			</div>
 
 			<div class="nav-collapse collapse">
+			<!--
 				<ul class="nav top-nav" id="nav-menu">
 
 					<li id="menu-item-home" class="home-link menu-item active">
@@ -69,6 +67,7 @@
 					</li>
 
 				</ul>
+			-->
 				<!--<?php
 				//include("DynamicMenu.class.php");
 				?>-->
@@ -81,7 +80,11 @@
 
 
 <!-- per page nav -->
-<ul id="manual_menu">
+<div id="manual_menu">
+	<a href="#page-1" id="mini-link">
+		<img src="fileadmin/template/images/logo-mini.png" alt="" />
+	</a>
+<ul>
 	<li><a href="#">Home</a></li>
 	<li><a href="#kontakt">Kontakt</a></li>
 	<!--
@@ -90,6 +93,7 @@
 	<li><a href="#netzwerk">Netzwerk</a></li>
 	<li><a href="#impressum">Impressum</a></li>
 </ul>
+</div>
 
 
 <!-- TODO Rename to first-section for consistency as no longer more pages are shown / loaded via AJAX for simplicity, compatibility. -->
@@ -369,7 +373,7 @@ HERE INBETWEEN IS WHERE AJAX LOADED DYNAMIC CONTENT CAN BE ADDED:
 		<div>
 			<ul>
 				<li>
-				Hintergrundbild: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>+ - J.R.I. Fr&uuml;hholz, Vorstand Weltentwicklungsverein
+					Hintergrundbild: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>+ - J.R.I. Fr&uuml;hholz, <a href="http://openeco.club">Weltentwicklungsverein</a>
 				</li>
 				<li>
 				Porträtfoto: Erika Spengler, <a href="https://www.ulligunde.com">www.ulligunde.com</a>

@@ -523,7 +523,6 @@ input, textarea {
 	background:transparent!important;
 }
 
-
 #mini-logo {
 	width:auto;
 	padding-top:13px;
@@ -554,6 +553,10 @@ input, textarea {
 #home-header {
 }
 #mini-link {
+	float: left;
+	display: block;
+	text-align: left;
+	padding-left: 2%;
 }
 #logo-title {
 	font-size:60px;
